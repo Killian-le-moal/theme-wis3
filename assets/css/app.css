@@ -9960,6 +9960,10 @@ body {
   overflow-x: hidden;
 }
 
+.titre-2 {
+  text-align: center;
+}
+
 :is(.entry-content, .block-editor-block-list__layout).is-root-container {
   overflow-x: hidden;
   background-color: #F8FBFD;
