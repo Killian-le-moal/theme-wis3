@@ -64,5 +64,36 @@
         <p class="paragraphe">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur faucibus mi, et tempus odio convallis sed. Nulla luctus mi sed nisl faucibus, a ullamcorper risus ornare. Quisque commodo viverra purus, sed sollicitudin enim dignissim vel. Suspendisse potenti. Nam sit amet massa in felis vestibulum tempus. In efficitur dictum lectus. Etiam quis mi arcu. Etiam feugiat euismod tortor, eget aliquet erat molestie vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Nulla scelerisque eleifend convallis.
         </p>
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col">
+                    <img class="fit-picture"
+                         src="#"
+                         alt="imagee">
+                </div>
+                <div class="col">
+                    <img class="fit-picture"
+                         src="#"
+                         alt="imagee">
+                </div>
+                <div class="col">
+                    <img class="fit-picture"
+                         src="#"
+                         alt="imagee">
+                </div>
+            </div>
+            <div class="row align-items-start">
+                <div class="col">
+                    <img class="fit-picture"
+                         src="#"
+                         alt="imagee">
+                </div>
+                <div class="col">
+                    <img class="fit-picture"
+                         src="#"
+                         alt="imagee">
+                </div>
+            </div>
+        </div>
     </main><!-- #main -->
 <?php get_footer();

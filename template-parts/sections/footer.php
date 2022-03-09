@@ -1,6 +1,22 @@
 <footer id="footer" class="site-footer" role="contentinfo">
     <div class="container">
 
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col">
+                    <img class="fit-picture"
+                         src="#"
+                         alt="imagee">
+                </div>
+                <div class="col">
+<H3>Title</H3>
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+            </div>
+        </div>
+
         <div class="widgets-wrapper">
             <div class="row g-4">
                 <?php if (is_active_sidebar('sidebar-footer-1')): ?>
