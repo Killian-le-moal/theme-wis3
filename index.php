@@ -12,7 +12,6 @@
                             </div>
 						<?php endwhile; ?>
                     </div>
-
 					<?php get_template_part( 'template-parts/pagination' ); ?>
 
 				<?php endif; ?>
