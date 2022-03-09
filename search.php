@@ -26,7 +26,7 @@
                 <?php else: ?>
 
                     <div class="empty">
-                        <div class="empty-text"><?Php _e("There's no videos to display", 'lazuli'); ?></div>
+                        <div class="empty-text"><?Php _e("Aucun résultats pour cette recherche", 'lazuli'); ?></div>
                     </div>
 
                 <?php endif; ?>
