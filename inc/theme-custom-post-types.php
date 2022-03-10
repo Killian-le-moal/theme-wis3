@@ -37,7 +37,7 @@ function detecteam_custom_post_types() {
         'public'              => true,
         'has_archive'         => true,
         'exclude_from_search' => false,
-        'rewrite'             => array( 'slug' => 'offres-emploi', 'with_front' => true ),
+        'rewrite'             => array( 'slug' => 'recrutements', 'with_front' => true ),
         'supports'            => array( 'title', 'editor', 'thumbnail', 'page-attributes', 'excerpt' ),
         'menu_icon'           => 'dashicons-businessman',
     );
