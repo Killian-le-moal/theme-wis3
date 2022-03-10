@@ -1,14 +1,14 @@
 <?php
 
-/* Template Name: Recrutement */
+/* Template Name: Service */
 
 get_header(); ?>
 
 <section>
-    <div class="container"
-
+    <div class="container">
+        <h1>COucou</h1>
         <?php $query = new WP_Query(array(
-            'post_type' => 'jobs',
+            'post_type' => 'services',
             'posts_per_page' => 10
         )); ?>
 
@@ -25,7 +25,7 @@ get_header(); ?>
         <?php endif; ?>
 
 
-
+    </div>
 </section>
 
 <?php get_footer(); ?>
