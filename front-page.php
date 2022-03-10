@@ -2,10 +2,6 @@
     <main id="main" class="site-main" role="main">
 
         <div class="entry-content">
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
         </div>
         <div class="container">
             <div class="row align-items-start">
