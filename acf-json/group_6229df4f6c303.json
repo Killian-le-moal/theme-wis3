@@ -4,8 +4,8 @@
     "fields": [
         {
             "key": "field_6229df5e66042",
-            "label": "Stores",
-            "name": "stores",
+            "label": "Image de la boutique",
+            "name": "store_front",
             "type": "image",
             "instructions": "",
             "required": 0,
@@ -51,7 +51,7 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "etablissements"
+                "value": "stores"
             }
         ]
     ],
@@ -64,5 +64,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1646912174
+    "modified": 1646921642
 }
