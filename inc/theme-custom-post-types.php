@@ -65,7 +65,7 @@ function services_custom_post_types() {
         'menu_icon'           => 'dashicons-insert',
     );
 
-    register_post_type( 'nos services', $cpt );
+    register_post_type( 'services', $cpt );
 }
 
 add_action( 'init', 'services_custom_post_types' );

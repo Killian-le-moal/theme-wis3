@@ -12,6 +12,7 @@
             <div class="row g-4">
                 <?php if (is_active_sidebar('sidebar-footer-1')): ?>
                     <div class="col-md-6 col-lg-3">
+                        Notre fil Twitter
                         <?php dynamic_sidebar('sidebar-footer-1'); ?>
                     </div>
                 <?php endif ?>
