@@ -1,12 +1,13 @@
-<?php
-$image = get_field('image');
-$size = 'full'; // (thumbnail, medium, large, full or custom size)
-if( $image ) {
-    echo wp_get_attachment_image( $image, $size );
-}
-?>
+<?php get_header(); ?>
+    <main id="main" class="site-main" role="main">
 
-<h3>Product Description</h3>
-<?php the_field('product_description'); ?>
+        <h1><?php the_title(); ?></h1>
+
+        <?php if($image = get_field('store_front')): ?>
+            <?php echo wp_get_attachment_image( $image['id'], 'large' ); ?>
+        <?php endif; ?>
+
+    </main><!-- #main -->
+<?php get_footer();
 
 

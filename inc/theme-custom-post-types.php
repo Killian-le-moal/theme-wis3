@@ -19,7 +19,7 @@ function lazuli_custom_post_types() {
 		'menu_icon'           => 'dashicons-store',
 	);
 
-	register_post_type( 'etablissements', $cpt );
+	register_post_type( 'stores', $cpt );
 }
 
 add_action( 'init', 'lazuli_custom_post_types' );
