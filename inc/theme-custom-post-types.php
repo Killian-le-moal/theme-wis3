@@ -27,8 +27,8 @@ add_action( 'init', 'lazuli_custom_post_types' );
 function detecteam_custom_post_types() {
     $cpt = array(
         'labels'              => array(
-            'name'          => __( 'Offres d\'emplois', 'lazuli' ),
-            'singular_name' => __( 'Offres d\'emplois', 'lazuli' ),
+            'name'          => __( 'Offres d\'emploi', 'lazuli' ),
+            'singular_name' => __( 'Offre d\'emploi', 'lazuli' ),
         ),
         'show_ui'             => true,
         'show_admin_column'   => true,
@@ -37,12 +37,12 @@ function detecteam_custom_post_types() {
         'public'              => true,
         'has_archive'         => true,
         'exclude_from_search' => false,
-        'rewrite'             => array( 'slug' => 'offres d\'emplois', 'with_front' => true ),
+        'rewrite'             => array( 'slug' => 'offres-emploi', 'with_front' => true ),
         'supports'            => array( 'title', 'editor', 'thumbnail', 'page-attributes', 'excerpt' ),
         'menu_icon'           => 'dashicons-businessman',
     );
 
-    register_post_type( 'offres d\'emplois', $cpt );
+    register_post_type( 'jobs', $cpt );
 }
 
 add_action( 'init', 'detecteam_custom_post_types' );

@@ -11,7 +11,7 @@ add_action( 'acf/init', 'lazuli_acf_init' );
 
 
 /**
- * Create options pages
+ * Create options pagesw
  */
 
 function lazuli_op_init() {
