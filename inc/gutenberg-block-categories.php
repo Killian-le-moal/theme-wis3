@@ -13,4 +13,4 @@ function lazuli_block_categories($categories, $post)
     );
 }
 
-add_filter('block_categories', 'lazuli_block_categories', 10, 2);
+add_filter('block_categories_all', 'lazuli_block_categories', 10, 2);
