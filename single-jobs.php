@@ -1,5 +1,7 @@
+<?php get_header(); ?>
+
 <?php
-$file = get_field('file');
+$file = get_field('pdf');
 if( $file ):
 
     // Extract variables.
@@ -30,3 +32,5 @@ if( $file ):
         </div>
     <?php endif; ?>
 <?php endif; ?>
+
+<?php get_footer(); ?>
