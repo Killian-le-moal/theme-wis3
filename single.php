@@ -1,6 +1,10 @@
 <?php get_header(); ?>
     <main id="main" class="site-main" role="main">
 
+        <div>
+            <h1>Liste des articles</h1>
+
+        </div>
         <div class="entry-content">
             <?php while ( have_posts() ) : the_post(); ?>
 
