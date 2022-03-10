@@ -16,5 +16,6 @@
             </div>
             <?php get_template_part('template-parts/pagination'); ?>
         <?php endif; ?>
+
     </main><!-- #main -->
 <?php get_footer();
