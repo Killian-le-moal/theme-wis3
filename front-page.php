@@ -2,26 +2,22 @@
     <main id="main" class="site-main" role="main">
 
         <div class="entry-content">
-            <?php while ( have_posts() ) : the_post(); ?>
 
-                <?php the_content(); ?>
-
-            <?php endwhile; ?>
         </div>
         <div class="container">
             <div class="row align-items-start">
                 <div class="col">
-                    <H2>
-                        Lorem Ipsum
-                    </H2>
+                    <H1>
+                        Detecteam
+                    </H1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur faucibus mi, et tempus odio convallis sed. Nulla luctus mi sed nisl faucibus, a ullamcorper risus ornare. Quisque commodo viverra purus, sed sollicitudin enim dignissim vel. Suspendisse potenti. Nam sit amet massa in felis vestibulum tempus. In efficitur dictum lectus. Etiam quis mi arcu. Etiam feugiat euismod tortor, eget aliquet erat molestie vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Nulla scelerisque eleifend convallis.
+                        Bienvenue sur notre sur site de détective private.
                     </p>
                 </div>
                 <div class="col">
                     <img class="fit-picture"
                          src="#"
-                         alt="imagee">
+                         alt="image">
                 </div>
             </div>
         </div>
@@ -33,7 +29,8 @@
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
@@ -43,7 +40,8 @@
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
@@ -53,7 +51,8 @@
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
@@ -62,7 +61,12 @@
         </div>
         <H2 class="titre-2">Lorem Ipsum</H2>
         <p class="paragraphe">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur faucibus mi, et tempus odio convallis sed. Nulla luctus mi sed nisl faucibus, a ullamcorper risus ornare. Quisque commodo viverra purus, sed sollicitudin enim dignissim vel. Suspendisse potenti. Nam sit amet massa in felis vestibulum tempus. In efficitur dictum lectus. Etiam quis mi arcu. Etiam feugiat euismod tortor, eget aliquet erat molestie vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Nulla scelerisque eleifend convallis.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur faucibus mi, et tempus odio
+            convallis sed. Nulla luctus mi sed nisl faucibus, a ullamcorper risus ornare. Quisque commodo viverra purus,
+            sed sollicitudin enim dignissim vel. Suspendisse potenti. Nam sit amet massa in felis vestibulum tempus. In
+            efficitur dictum lectus. Etiam quis mi arcu. Etiam feugiat euismod tortor, eget aliquet erat molestie vel.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Nulla scelerisque eleifend
+            convallis.
         </p>
         <div class="container">
             <div class="row align-items-start">
