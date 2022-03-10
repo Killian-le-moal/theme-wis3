@@ -13,7 +13,7 @@
                     </div>
                 </div>
 
-                <h2 class="titre-2">Lorem Ipsum</h2>
+                <h2 class="titre-2">Titre du site </h2>
 
                 <?php $query = new WP_Query(array(
                     'post_type' => 'post',
@@ -37,7 +37,7 @@
 
         <section>
             <div class="container text-center">
-                <h2>Lorem Ipsum</h2>
+                <h2>Welcome to the website </h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur faucibus mi, et
                     tempus
