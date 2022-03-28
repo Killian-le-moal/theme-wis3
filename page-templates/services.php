@@ -6,6 +6,7 @@ get_header(); ?>
 
 <section>
     <div class="container"
+         <h1>Découvrez nos services</h1>
 
     <?php $query = new WP_Query(array(
         'post_type' => 'services',

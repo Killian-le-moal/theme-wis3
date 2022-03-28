@@ -9969,6 +9969,10 @@ body {
   font-size: 1.2em;
 }
 
+.service {
+  background-color: red;
+}
+
 :is(.entry-content, .block-editor-block-list__layout).is-root-container {
   overflow-x: hidden;
   background-color: #F8FBFD;
