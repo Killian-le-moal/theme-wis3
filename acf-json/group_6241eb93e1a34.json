@@ -1,0 +1,136 @@
+{
+    "key": "group_6241eb93e1a34",
+    "title": "Service DetecTeam",
+    "fields": [
+        {
+            "key": "field_6241ebace1e7c",
+            "label": "Satisfaction cliente",
+            "name": "satisfaction_cliente",
+            "type": "number",
+            "instructions": "Satisfaction client sur la mission actuellement après réception de leur mail de retour d'avis.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "\/100",
+            "min": 0,
+            "max": 100,
+            "step": 5
+        },
+        {
+            "key": "field_6241ece1e1e7d",
+            "label": "Objectifs",
+            "name": "objectifs",
+            "type": "textarea",
+            "instructions": "Mettre en avant les objectifs de la mission à accomplir.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_6241ed4ce1e7e",
+            "label": "Detectives",
+            "name": "detectives",
+            "type": "textarea",
+            "instructions": "Présente les détectives aptes à réaliser la mission.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Sherlouk Aulms",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_6241eda2e1e7f",
+            "label": "Prix",
+            "name": "prix",
+            "type": "number",
+            "instructions": "Prix de la prestation.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "€",
+            "min": 0,
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_6241eddae1e80",
+            "label": "Illustration",
+            "name": "illustration",
+            "type": "image",
+            "instructions": "Image de la prestation",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "services"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/services.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1648493091
+}

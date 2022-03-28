@@ -9968,9 +9968,6 @@ body {
   font-family: "Arial Nova Light";
   font-size: 1.2em;
 }
-.formulaire button {
-  color: red;
-}
 
 :is(.entry-content, .block-editor-block-list__layout).is-root-container {
   overflow-x: hidden;
