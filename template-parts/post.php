@@ -1,8 +1,7 @@
 <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
     <div class="card-body">
-        <h5 class="card-title"><?php the_title(); ?></h5>
+        <h5 class="card-title text-secondary"><?php the_title(); ?></h5>
         <p class="card-text"><?php the_excerpt(); ?></p>
-        <a href="<?php the_permalink(); ?> " class="btn btn-primary">Lire l'article</a>
+        <a href="<?php the_permalink(); ?> " class="btn btn-primary">Découvrir le service</a>
     </div>
 </div>

@@ -3,6 +3,68 @@
     "title": "Service DetecTeam",
     "fields": [
         {
+            "key": "field_62435374bcc22",
+            "label": "Nom du detective",
+            "name": "detective_name",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_624208fb187b8",
+            "label": "Photo détective",
+            "name": "photo_detective",
+            "type": "image",
+            "instructions": "Image du detective",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_6241ed4ce1e7e",
+            "label": "Description détective",
+            "name": "detective_desc",
+            "type": "textarea",
+            "instructions": "Présente le profil du détective apte à réaliser la mission",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Sherlouk Aulms",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
             "key": "field_6241ebace1e7c",
             "label": "Satisfaction cliente",
             "name": "satisfaction_cliente",
@@ -43,25 +105,6 @@
             "new_lines": ""
         },
         {
-            "key": "field_6241ed4ce1e7e",
-            "label": "Detectives",
-            "name": "detectives",
-            "type": "textarea",
-            "instructions": "Présente les détectives aptes à réaliser la mission.",
-            "required": 1,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "Sherlouk Aulms",
-            "maxlength": "",
-            "rows": "",
-            "new_lines": ""
-        },
-        {
             "key": "field_6241eda2e1e7f",
             "label": "Prix",
             "name": "prix",
@@ -81,57 +124,6 @@
             "min": 0,
             "max": "",
             "step": ""
-        },
-        {
-            "key": "field_6241eddae1e80",
-            "label": "Illustration",
-            "name": "illustration",
-            "type": "image",
-            "instructions": "Image de la prestation",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "id",
-            "preview_size": "medium",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": ""
-        },
-        {
-            "key": "field_624208fb187b8",
-            "label": "Photos détectives",
-            "name": "detectives_images",
-            "type": "gallery",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "array",
-            "preview_size": "medium",
-            "insert": "append",
-            "library": "all",
-            "min": 1,
-            "max": "",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": ""
         }
     ],
     "location": [
@@ -159,5 +151,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1648495148
+    "modified": 1648579964
 }
