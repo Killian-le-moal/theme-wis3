@@ -10043,6 +10043,25 @@ body {
   height: 250px;
 }
 
+.titre_service {
+  text-align: center;
+  padding: 20px;
+}
+
+.text-title {
+  text-align: center;
+}
+
+.btn-services {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.carte-services {
+  padding: 30px;
+}
+
 :is(.entry-content, .block-editor-block-list__layout).is-root-container {
   overflow-x: hidden;
   background-color: #F8FBFD;

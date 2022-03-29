@@ -10,7 +10,7 @@ get_header(); ?>
         <h1>Découvrez notre service : <?php the_title() ?></h1>
 
 
-        <div class="row">
+        <div class="row carte-services">
             <div class="col-lg-12">
                 <div class="card">
                     <div class="row">

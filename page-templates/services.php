@@ -4,9 +4,11 @@
 
 get_header(); ?>
 
-<section>
-    <div class="container"
-         <h1>Découvrez nos services</h1>
+<section class="container">
+
+    <div class="titre_service">
+        <h2>Découvrez nos services</h2>
+    </div>
 
     <?php $query = new WP_Query(array(
         'post_type' => 'services',
@@ -24,7 +26,6 @@ get_header(); ?>
         </div>
         <?php get_template_part('template-parts/pagination'); ?>
     <?php endif; ?>
-
 
 
 </section>
