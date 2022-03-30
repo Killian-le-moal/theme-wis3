@@ -1,7 +1,7 @@
 <footer id="footer" class="site-footer" role="contentinfo">
-    <div class="container">
+    <section class="container">
 
-        <div class="container">
+        <div>
             <div class="col text-center">
                 <H3>Le footer</H3>
             </div>
@@ -34,9 +34,11 @@
             </div>
         </div>
 
+        <div>Réalisé avec ❤️ par Rémy et Killian - WIS 3 Nantes</div>
+
         <div class="copyright-wrapper">
             <span class="copyright">
-                &copy;
+
                 <?php echo date('Y'); ?>
                 <?php bloginfo('name'); ?>
             </span>
@@ -45,5 +47,6 @@
             </div>
         </div>
 
-    </div>
+
+    </section>
 </footer><!-- #colophon -->
