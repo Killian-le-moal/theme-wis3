@@ -7,7 +7,7 @@
             <?php the_field( 'description' ); ?>
         </p>
         <p>
-            <a href="<?php the_field( 'url' ); ?>" class="plugin__link" style="background-color: <?php the_field( 'color' ); ?>">
+            <a href="<?php the_field( 'url' ); ?>" class="plugin__link" >
                 Télécharger l'extension
             </a>
         </p>

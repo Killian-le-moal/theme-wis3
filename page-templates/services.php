@@ -16,7 +16,7 @@ get_header(); ?>
     )); ?>
 
     <?php if ($query->have_posts()): ?>
-        <div class="row g-4">
+        <div class="row lg-4">
             <?php while ($query->have_posts()) : $query->the_post(); ?>
                 <div class="col-md-6 col-xl-4">
                     <?php get_template_part('template-parts/post'); ?>

@@ -1,37 +1,32 @@
 {
     "key": "group_6229df4f6c303",
-    "title": "Store",
+    "title": "Etablissement",
     "fields": [
         {
-            "key": "field_6229df5e66042",
-            "label": "Image de la boutique",
-            "name": "store_front",
-            "type": "image",
-            "instructions": "",
-            "required": 0,
+            "key": "field_624441d5054b5",
+            "label": "Nom de l'établissement",
+            "name": "building_name",
+            "type": "text",
+            "instructions": "Nom de l'établissement",
+            "required": 1,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
                 "class": "",
                 "id": ""
             },
-            "return_format": "array",
-            "preview_size": "medium",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": ""
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         },
         {
-            "key": "field_6229e0af366ef",
-            "label": "Texte",
-            "name": "texte",
+            "key": "field_624441f3054b6",
+            "label": "Adresse de l'établissement",
+            "name": "building_adress",
             "type": "textarea",
-            "instructions": "",
+            "instructions": "Adresse de l'établissement",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -44,6 +39,30 @@
             "maxlength": "",
             "rows": "",
             "new_lines": ""
+        },
+        {
+            "key": "field_62444259054b7",
+            "label": "Image de l'établissement",
+            "name": "building_pic",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
         }
     ],
     "location": [
@@ -52,6 +71,13 @@
                 "param": "post_type",
                 "operator": "==",
                 "value": "stores"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "single-stores.php"
             }
         ]
     ],
@@ -64,5 +90,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1646921642
+    "modified": 1648641702
 }
