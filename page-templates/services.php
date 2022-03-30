@@ -23,7 +23,7 @@ get_header(); ?>
         <div class="row lg-4">
             <?php while ($query->have_posts()) : $query->the_post(); ?>
                 <div class="col-md-6 col-xl-4">
-                    <?php get_template_part('template-parts/post'); ?>
+                    <?php get_template_part('template-parts/service'); ?>
                 </div>
             <?php endwhile;
             wp_reset_postdata(); ?>

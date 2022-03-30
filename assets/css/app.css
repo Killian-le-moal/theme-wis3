@@ -10069,7 +10069,9 @@ body {
 }
 
 .copyright {
-  background-color: red;
+  background-color: black;
+  text-align: center;
+  color: white;
 }
 
 :is(.entry-content, .block-editor-block-list__layout).is-root-container {

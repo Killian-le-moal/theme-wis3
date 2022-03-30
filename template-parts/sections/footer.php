@@ -34,19 +34,17 @@
             </div>
         </div>
 
-        <div>Réalisé avec ❤️ par Rémy et Killian - WIS 3 Nantes</div>
 
-        <div class="copyright-wrapper">
-            <span class="copyright">
 
-                <?php echo date('Y'); ?>
-                <?php bloginfo('name'); ?>
-            </span>
-            <div class="menu-wrapper">
-                <?php wp_nav_menu(array('theme_location' => 'footer_legal')); ?>
-            </div>
+        <?php echo date('Y'); ?>
+        <?php bloginfo('name'); ?>
+
+        <div class="menu-wrapper">
+            <?php wp_nav_menu(array('theme_location' => 'footer_legal')); ?>
         </div>
 
+
+        <div class="copyright"> Réalisé avec ❤️ par Rémy et Killian - WIS 3 Nantes<!-- #app --> </div>
 
     </section>
 </footer><!-- #colophon -->
