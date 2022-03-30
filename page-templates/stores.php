@@ -7,7 +7,7 @@ get_header(); ?>
 <section class="container">
 
     <div class="titre_service">
-        <h2>Découvrez nos magasins</h2>
+        <h2>Découvrez nos établissements</h2>
     </div>
 
     <?php $query = new WP_Query(array(
@@ -18,7 +18,7 @@ get_header(); ?>
     <?php if ($query->have_posts()): ?>
         <div class="row lg-4">
             <?php while ($query->have_posts()) : $query->the_post(); ?>
-                <div class="col-md-6 col-xl-4">
+                <div class="col-md-6 col-xl-6">
                     <?php get_template_part('template-parts/post'); ?>
                 </div>
             <?php endwhile;

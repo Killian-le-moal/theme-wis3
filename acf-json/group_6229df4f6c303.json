@@ -4,10 +4,10 @@
     "fields": [
         {
             "key": "field_624441d5054b5",
-            "label": "Nom de l'établissement",
-            "name": "building_name",
-            "type": "text",
-            "instructions": "Nom de l'établissement",
+            "label": "Horaires",
+            "name": "hours",
+            "type": "textarea",
+            "instructions": "Horaires d'ouvertures de l'établissement",
             "required": 1,
             "conditional_logic": 0,
             "wrapper": {
@@ -17,9 +17,9 @@
             },
             "default_value": "",
             "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
         },
         {
             "key": "field_624441f3054b6",
@@ -90,5 +90,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1648641702
+    "modified": 1648645745
 }
