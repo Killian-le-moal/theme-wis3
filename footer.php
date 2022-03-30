@@ -1,8 +1,10 @@
 <?php get_template_part('template-parts/sections/footer'); ?>
 
-</div><!-- #app -->
+</div class="copyright"><!-- #app -->
 
 <?php wp_footer(); ?>
+
+<p>Réalisé avec ❤️ par Rémy et Killian - WIS 3 Nantes</p>
 
 </body>
 
