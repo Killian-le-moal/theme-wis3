@@ -118,3 +118,9 @@ body {
 .carte-services {
   padding: 30px;
 }
+
+.jumbotron {
+  background-image: url($assets-path + 'images/bgDigitalBusiness.jpeg');
+  height: 60vh;
+  padding: 8rem;
+}

@@ -2,11 +2,15 @@
     <main id="main" class="site-main" role="main">
 
         <section>
+            <div class="jumbotron bg-dark text-white">
+                <div>
+                    <h1>Détecteam</h1>
+                    <p>Bienvenue sur notre sur site <br> de détective private.</p>
+                </div>
+            </div>
             <div class="container">
                 <div class="row g-4 align-items-start">
                     <div class="col-12">
-                        <h1>Detecteam</h1>
-                        <p>Bienvenue sur notre sur site de détective private.</p>
                     </div>
                 </div>
 

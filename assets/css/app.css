@@ -10062,6 +10062,12 @@ body {
   padding: 30px;
 }
 
+.jumbotron {
+  background-image: url("/wordpress_wis3/wp-content/themes/theme-wis3/assets/images/bgDigitalBusiness.jpeg");
+  height: 60vh;
+  padding: 8rem;
+}
+
 .copyright {
   background-color: red;
 }
