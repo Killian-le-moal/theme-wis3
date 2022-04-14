@@ -115,9 +115,7 @@
 
                     <div class="col-lg-4">
 
-                        <div id="sticker" class="card ml-5 cta-scroll cta">
-                            <img src="https://jeuxserver.com/wp-content/uploads/2020/03/10-de-r%C3%A9duction-sur-les-pr%C3%A9commandes-Cyberpunk-2077-sur.jpg"
-                                 class="card-img-top" alt="">
+                        <div id="sticker" class="card ml-5 sticky">
                             <div class="card-body">
                                 <p class="card-text">Obtenez le jeu avec une réduction en passant par notre lien
                                     d'affiliation !</p>
@@ -160,5 +158,5 @@
         }
     </script>
     <script defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
-<scriptetst
+
 <?php get_footer();
