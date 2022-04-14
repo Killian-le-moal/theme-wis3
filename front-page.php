@@ -160,4 +160,5 @@
         }
     </script>
     <script defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+<scriptetst
 <?php get_footer();
