@@ -47,4 +47,6 @@
         <div class="copyright"> Réalisé avec ❤️ par Rémy et Killian - WIS 3 Nantes<!-- #app --> </div>
 
     </section>
+
+    <script src="assets/js/app.js"></script>
 </footer><!-- #colophon -->

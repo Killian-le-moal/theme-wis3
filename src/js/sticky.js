@@ -1,3 +1,9 @@
-let Sticky = require('sticky-js');
+require('jquery-sticky');
 
-let sticky = new Sticky('.sticky');
+
+
+document.addEventListener('DOMContentLoaded', function (){
+    $("#sticker").sticky({
+        topSpacing: 200
+    });
+});
