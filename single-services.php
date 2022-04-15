@@ -4,11 +4,18 @@
 
 get_header(); ?>
 
+
+
 <section class="service">
     <div class="container">
 
-        <h1>Découvrez notre service : <?php the_title() ?></h1>
-
+        <section class="container">
+            <div class="jumbotron bg-dark text-white">
+                <div>
+                    <h1>Découvrez nos services</h1>
+                    <p>Bienvenue sur notre sur site <br> de détective private.</p>
+                </div>
+            </div>
 
         <div class="row carte-services">
             <div class="col-lg-12">
