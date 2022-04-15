@@ -16,12 +16,12 @@ get_header(); ?>
                     <div class="row">
                         <div class="col-sm-12 col-lg-6">
                             <div class="card-body">
-                                <h4 class="card-title">Horaires d'ouvertures : </h4>
-                                <span><?php the_field('hours'); ?> </span>
+                                <h4 class="card-title">Présentation du poste</h4>
+                                <span><?php the_field('job_presentation'); ?> </span>
 
 
-                                <h2 class="font-medium mt-5 mb-0">Adresse de l'établissement</h2> <br>
-                                <span class="text-muted"><?php the_field('building_adress'); ?></span>
+                                <h2 class="font-medium mt-5 mb-0">Compétences et profil requis</h2> <br>
+                                <span class="text-muted"><?php the_field('job_profil'); ?></span>
 
                             </div>
                         </div>
@@ -29,14 +29,14 @@ get_header(); ?>
                             <div class="card-body">
                                 <div class="d-flex align-items-center">
                                     <div class="ml-2">
-                                        <h5 class="mb-0">Illustration de la batisse : <br></h5>
-                                        <span class="buiding_pic"><?php
+                                        <h5 class="mb-0">L'offre d'emploi<br></h5>
+                                        <span class="pdf">
 
-                                            $image_id = get_field('building_pic');
-                                            if ($image_id) {
-                                                echo wp_get_attachment_image($image_id, 'full');
-                                            }
-                                            ?>
+<?php
+$file = get_field('pdf');
+if ($file): ?>
+    <a href="<?php echo $file['url']; ?>"><?php echo $file['filename']; ?></a>
+<?php endif; ?>
                                             </span>
 
 
@@ -46,6 +46,16 @@ get_header(); ?>
                         </div>
 
                     </div>
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <div class="ml-2">
+                                    <h5 class="mb-0">Présentation du groupe Détecteam<br></h5>
+                                    <span><?php the_field('detecteam_presentation'); ?> </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>

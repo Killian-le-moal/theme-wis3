@@ -20,6 +20,63 @@
             "min_size": "",
             "max_size": "",
             "mime_types": ""
+        },
+        {
+            "key": "field_6259a42b07d9b",
+            "label": "Présentation du poste",
+            "name": "job_presentation",
+            "type": "text",
+            "instructions": "Présentation du poste",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6259a45d07d9c",
+            "label": "Compétences et profil requis",
+            "name": "job_profil",
+            "type": "textarea",
+            "instructions": "Compétences et profil requis",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_6259a59d261f7",
+            "label": "Présentation du groupe Détecteam",
+            "name": "detecteam_presentation",
+            "type": "text",
+            "instructions": "Présentation du groupe Détecteam",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         }
     ],
     "location": [
@@ -40,5 +97,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1646912515
+    "modified": 1650042297
 }
