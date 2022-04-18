@@ -16,8 +16,7 @@
 
 
     <div class="card mb-4" style="width: 24rem; min-height: 26rem">
-        <img src="https://global-img.gamergen.com/cyberpunk-2077-mise-a-jour-1-06_0900970953.jpg"
-             class="card-img-top" alt="">
+        <img <?php the_post_thumbnail(); ?>
         <div class="card-body">
             <h5 class="card-title"><?php the_title(); ?></h5>
             <p class="card-text"><?php the_excerpt(); ?></p>
