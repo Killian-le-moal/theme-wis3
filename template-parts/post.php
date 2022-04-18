@@ -12,10 +12,10 @@
 </div> -->
 
 
-<div class="col-sm slide-left">
+<div class="col-sm-2 col-lg-4 slide-left">
 
 
-    <div class="card mb-4" style="width: 24rem; min-height: 26rem">
+    <div class="card mb-4" style="width: 20rem; min-height: 26rem">
         <img <?php the_post_thumbnail(); ?>
         <div class="card-body">
             <h5 class="card-title"><?php the_title(); ?></h5>

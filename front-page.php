@@ -112,7 +112,7 @@
 
                     <div class="col-lg-4">
 
-                        <div id="sticker" class="card ml-5 sticky">
+                        <div  class="card ml-5 sticky">
                             <div class="card-body">
                                 <p class="card-text">Vous voulez plus de détails ? Détecteam vous donne toutes les clés pour tout savoir !</p>
                                 <button class="btn btn-dark">Contactez nous pour un devis</button>
