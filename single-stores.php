@@ -34,7 +34,7 @@ get_header(); ?>
 
                                             $image_id = get_field('building_pic');
                                             if ($image_id) {
-                                                echo wp_get_attachment_image($image_id, 'full');
+                                                echo wp_get_attachment_image($image_id, 'thumbnail');
                                             }
                                             ?>
                                             </span>
