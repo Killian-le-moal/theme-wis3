@@ -50,7 +50,7 @@
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis metus eu lacus eleifend gravida id eget nunc. In hac habitasse platea dictumst. Proin in nunc id odio consectetur ultricies et vel quam. Nam sodales tempor nulla non condimentum. Maecenas sed maximus ipsum. Quisque aliquam lacus nec felis commodo finibus. Morbi sed neque congue, luctus dui sed, dictum turpis. Ut feugiat lorem id magna semper convallis. Morbi dictum sodales odio quis semper.</p>
                                     <a href="#" class="btn btn-dark">Lire la suite</a>
                                 </div>
-                                <img src="https://i.jeuxactus.com/datas/jeux/c/y/cyberpunk-2077/vu/cyberpunk-2077-5fcdec9b00182.jpg"
+                                <img src="https://www.topchrono.biz/wp-content/uploads/2021/09/se-venger-de-son-ex-1024x576.jpg"
                                      class="card-img-bottom" alt="...">
                             </div>
                         </div>
