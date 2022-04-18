@@ -17,7 +17,7 @@
 <div class="card mb-4" style="max-width: 540px;">
     <div class="row g-0">
         <div class="col-md-4">
-            <img src="https://www.je-change-de-metier.com/media/cache/resolve/large/images/trouver_un_metier/metiers_par_centre_interets/enquete-1.jpg" class="img-fluid rounded-start" alt="...">
+            img
         </div>
         <div class="col-md-8">
             <div class="card-body">

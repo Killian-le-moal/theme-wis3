@@ -13,13 +13,9 @@
 
                     <div class="col-xs-6 col-md-3">
                         <h6>Catégories</h6>
-                        <ul class="footer-links">
-                            <li><a href="http://localhost:8888/wordpress_wis3/recrutements/">Offres d'emplois</a></li>
-                            <li><a href="http://localhost:8888/wordpress_wis3/etablissements/">Nos agences</a></li>
-                            <li><a href="http://localhost:8888/wordpress_wis3/le-groupe/">Le groupe Détecteam</a></li>
-                            <li><a href="http://localhost:8888/wordpress_wis3/nos-services/">Nos services</a></li>
-                            <li><a href="http://localhost:8888/wordpress_wis3/blog/">Le blog et ses astuces</a></li>
-                        </ul>
+                        <div class="menu-wrapper">
+                            <?php wp_nav_menu(array('theme_location' => 'footer_legal')); ?>
+                        </div>
                     </div>
 
                     <div class="col-xs-6 col-md-3">
@@ -83,9 +79,7 @@
         <?php echo date('Y'); ?>
         <?php bloginfo('name'); ?>
 
-        <div class="menu-wrapper">
-            <?php wp_nav_menu(array('theme_location' => 'footer_legal')); ?>
-        </div>
+
 
 
         <div class="copyright"> Réalisé avec ❤️ par Rémy et Killian - WIS 3 Nantes<!-- #app --> </div>
