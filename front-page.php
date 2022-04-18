@@ -46,11 +46,8 @@
                         <div class="test">
                             <div class="card mb-3 slide-left">
                                 <div class="card-body">
-                                    <h5 class="card-title">Notre test complet !</h5>
-                                    <p class="card-text">Il était une fois 2012 et l'annonce de CD Projekt avec une toute
-                                        nouvelle IP : Cyberpunk 2077. Après 8 années de tumultes et de reports, le produit
-                                        est enfin livré alors que les attentes sont immenses et le clivage n'aura pas pu
-                                        être aussi parfait qu'actuellement.</p>
+                                    <h5 class="card-title">Les 7 étapes pour vous venger de votre ex-conjoint.e</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis metus eu lacus eleifend gravida id eget nunc. In hac habitasse platea dictumst. Proin in nunc id odio consectetur ultricies et vel quam. Nam sodales tempor nulla non condimentum. Maecenas sed maximus ipsum. Quisque aliquam lacus nec felis commodo finibus. Morbi sed neque congue, luctus dui sed, dictum turpis. Ut feugiat lorem id magna semper convallis. Morbi dictum sodales odio quis semper.</p>
                                     <a href="#" class="btn btn-dark">Lire la suite</a>
                                 </div>
                                 <img src="https://i.jeuxactus.com/datas/jeux/c/y/cyberpunk-2077/vu/cyberpunk-2077-5fcdec9b00182.jpg"
@@ -117,9 +114,8 @@
 
                         <div id="sticker" class="card ml-5 sticky">
                             <div class="card-body">
-                                <p class="card-text">Obtenez le jeu avec une réduction en passant par notre lien
-                                    d'affiliation !</p>
-                                <button class="btn btn-dark">Obtenir le jeu</button>
+                                <p class="card-text">Vous voulez plus de détails ? Détecteam vous donne toutes les clés pour tout savoir !</p>
+                                <button class="btn btn-dark">Contactez nous pour un devis</button>
                             </div>
                         </div>
 
