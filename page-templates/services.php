@@ -5,13 +5,14 @@
 get_header(); ?>
 
 <section class="container">
+    <div class="jumbotron bg-dark text-white">
 
-        <div class="jumbotron bg-dark text-white">
-            <div>
-                <h1>Découvrez nos services</h1>
-                <p>Bienvenue sur notre sur site <br> de détective private.</p>
-            </div>
-        </div>
+
+    <div>
+        <h1>Découvrez nos services</h1>
+        <p>Bienvenue sur notre sur site <br> de détective private.</p>
+    </div>
+    </div>
 
     <div class="titre_service">
         <h2>Découvrez nos services</h2>

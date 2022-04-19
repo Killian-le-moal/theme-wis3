@@ -5,7 +5,7 @@
             <div class="jumbotron bg-dark text-white">
                 <div>
                     <h1>Détecteam</h1>
-                    <p>Bienvenue sur notre sur site <br> de détective private.</p>
+                    <p>Bienvenue sur notre sur site <br> de Detecteam !</p>
                 </div>
             </div>
             <div class="container">

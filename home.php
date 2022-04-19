@@ -3,6 +3,7 @@
         <section class="container">
             <div class="text-center mb-4">
                 <h1>Nos dernières actus...</h1>
+                <p>Découvrez les dernières actus qui rythme le quotidien de notre agence. </p>
             </div>
             <?php $query = new WP_Query(array(
                 'post_type' => 'post',
