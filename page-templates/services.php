@@ -6,7 +6,6 @@ get_header(); ?>
 
 <section class="container">
 
-    <section class="container">
         <div class="jumbotron bg-dark text-white">
             <div>
                 <h1>Découvrez nos services</h1>
