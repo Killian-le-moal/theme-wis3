@@ -116,21 +116,17 @@
                     </div>
 
 
-                    <div class="col-lg-4">
-
-                        <div id="sticker" class="card ml-5 sticky">
-                            <div class="card-body">
-                                <p class="card-text">Vous voulez plus de détails ? Détecteam vous donne toutes les clés
-                                    pour tout savoir !</p>
-                                <button class="btn btn-dark">Contactez nous pour un devis</button>
-                            </div>
-                        </div>
-
-
+                    <div class="col-lg-4 position-sticky sticky-top">
+                        <a id="sticker" class="twitter-timeline sticky-top" data-height="500"
+                           href="https://twitter.com/Detecteam?ref_src=twsrc%5Etfw">Tweets by Detecteam</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
 
 
                 </div>
+
+
+            </div>
 
 
             </div>
