@@ -9,6 +9,11 @@ get_header(); ?>
 
 <section class="container">
     <?php
+    if ( function_exists('yoast_breadcrumb') ) {
+        yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+    }
+    ?>
+    <?php
 if ( have_posts() ) : while ( have_posts() ) : the_post();
     the_content();
 endwhile;
