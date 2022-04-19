@@ -6,6 +6,11 @@ get_header(); ?>
 
 <section class="service">
     <div class="container">
+        <?php
+        if ( function_exists('yoast_breadcrumb') ) {
+            yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+        }
+        ?>
 
         <h1>Découvrez notre établissement : <?php the_title() ?></h1>
 
