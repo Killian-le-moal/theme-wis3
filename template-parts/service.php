@@ -13,17 +13,15 @@
 -->
 
 
+<div class="service">
+    <div class="col-sm-2 col-lg-3 slide-left">
 
-<div class="card mb-4" style="max-width: 540px;">
-    <div class="row g-0">
-        <div class="col-md-4">
-            img
-        </div>
-        <div class="col-md-8">
+
+        <div class="card mb-4" style="width: 20rem; min-height: 18rem">
+            <img <?php the_post_thumbnail(); ?>
             <div class="card-body">
                 <h5 class="card-title"><?php the_title(); ?></h5>
-                <p class="card-text"> <?php the_excerpt(); ?></p>
-                <a href="<?php the_permalink(); ?> " class="btn btn-primary btn-services mt-4 ">Voir notre service</a>
+                <a href="<?php the_permalink(); ?>" class="btn btn-dark">Lire l'article</a>
             </div>
         </div>
     </div>

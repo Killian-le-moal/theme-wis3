@@ -46,13 +46,13 @@ function lazuli_init_block_types()
         ));
 
         acf_register_block_type(array(
-            'name' => 'lazuli/plugin',
-            'title' => __('Plugin', 'lazuli'),
-            'description' => __('Display a plugin block', 'lazuli'),
-            'render_template' => 'template-parts/blocks/plugin.php',
+            'name' => 'lazuli/membre',
+            'title' => __('Membre', 'lazuli'),
+            'description' => __('Présente un membre de la team', 'lazuli'),
+            'render_template' => 'template-parts/blocks/membre.php',
             'category' => 'section',
             'icon' => 'admin-comments',
-            'keywords' => array('plugin'),
+            'keywords' => array('membre'),
             'align' => 'full',
             'supports' => array(
                 'jsx' => true,

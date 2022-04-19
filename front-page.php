@@ -14,7 +14,7 @@
                     </div>
                 </div>
 
-                <h2 class="titre-2 mt-4 mb-4">Nos dernières enquêtes ...  </h2>
+                <h2 class="titre-2 mt-4 mb-4">Nos dernières enquêtes ... </h2>
 
                 <?php $query = new WP_Query(array(
                     'post_type' => 'post',
@@ -47,7 +47,13 @@
                             <div class="card mb-3 slide-left">
                                 <div class="card-body">
                                     <h5 class="card-title">Les 7 étapes pour vous venger de votre ex-conjoint.e</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis metus eu lacus eleifend gravida id eget nunc. In hac habitasse platea dictumst. Proin in nunc id odio consectetur ultricies et vel quam. Nam sodales tempor nulla non condimentum. Maecenas sed maximus ipsum. Quisque aliquam lacus nec felis commodo finibus. Morbi sed neque congue, luctus dui sed, dictum turpis. Ut feugiat lorem id magna semper convallis. Morbi dictum sodales odio quis semper.</p>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Quisque quis metus eu lacus eleifend gravida id eget nunc. In hac habitasse
+                                        platea dictumst. Proin in nunc id odio consectetur ultricies et vel quam. Nam
+                                        sodales tempor nulla non condimentum. Maecenas sed maximus ipsum. Quisque
+                                        aliquam lacus nec felis commodo finibus. Morbi sed neque congue, luctus dui sed,
+                                        dictum turpis. Ut feugiat lorem id magna semper convallis. Morbi dictum sodales
+                                        odio quis semper.</p>
                                     <a href="#" class="btn btn-dark">Lire la suite</a>
                                 </div>
                                 <img src="https://www.topchrono.biz/wp-content/uploads/2021/09/se-venger-de-son-ex-1024x576.jpg"
@@ -101,7 +107,7 @@
 
                         <div class="carte slide-up">
                             <h2 class="slide-left">Notre agence
-                                </h2>
+                            </h2>
 
                             <div id="map" style="width: 800px; height: 500px; background-color: #444;"></div>
 
@@ -112,9 +118,10 @@
 
                     <div class="col-lg-4">
 
-                        <div  class="card ml-5 sticky">
+                        <div id="sticker" class="card ml-5 sticky">
                             <div class="card-body">
-                                <p class="card-text">Vous voulez plus de détails ? Détecteam vous donne toutes les clés pour tout savoir !</p>
+                                <p class="card-text">Vous voulez plus de détails ? Détecteam vous donne toutes les clés
+                                    pour tout savoir !</p>
                                 <button class="btn btn-dark">Contactez nous pour un devis</button>
                             </div>
                         </div>
@@ -128,9 +135,6 @@
 
             </div>
         </section>
-
-
-
 
 
     </main><!-- #main -->

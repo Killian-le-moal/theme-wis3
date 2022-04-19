@@ -10320,6 +10320,11 @@ body {
   padding: 8rem;
 }
 
+.service img {
+  max-height: 10rem;
+  max-width: 14rem;
+}
+
 .copyright {
   text-align: center;
   color: white;

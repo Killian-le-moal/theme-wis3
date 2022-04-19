@@ -12,15 +12,15 @@
 </div> -->
 
 
-<div class="col-sm-2 col-lg-4 slide-left">
+    <div class="col-sm-2 col-lg-4 slide-left">
 
 
-    <div class="card mb-4" style="width: 24rem; min-height: 26rem">
-        <img <?php the_post_thumbnail(); ?>
-        <div class="card-body">
-            <h5 class="card-title"><?php the_title(); ?></h5>
-            <p class="card-text"><?php the_excerpt(); ?></p>
-            <a href="<?php the_permalink(); ?>" class="btn btn-dark">Lire l'article</a>
+        <div class="card mb-4" style="width: 24rem; min-height: 26rem">
+            <img <?php the_post_thumbnail(); ?>
+            <div class="card-body">
+                <h5 class="card-title"><?php the_title(); ?></h5>
+                <p class="card-text"><?php the_excerpt(); ?></p>
+                <a href="<?php the_permalink(); ?>" class="btn btn-dark">Lire l'article</a>
+            </div>
         </div>
     </div>
-</div>
